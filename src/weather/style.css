@@ -193,13 +193,14 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 } */
- @media(max-width:600px)
+
+   @media (max-width: 568px)
  {
-body{
+   body{
         min-height: 100vh;
         margin-top: 270px;
-    }
-    .search {
+       }
+   .search{
            margin-top: 300px;
-}
+           }
  }
