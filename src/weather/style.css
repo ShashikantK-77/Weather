@@ -184,20 +184,20 @@ body {
   margin-top: -150px;
   margin-bottom: 50px;
 }
-
-/*Resize the wrap to see the search bar change!*/
-/* .wrap {
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-
- @media (max-width: 568px) {
+@media (max-width: 568px) {
 
    body
    {
      background-color: red;
    }
+  .widget {
+  display: flex;
+  height: 200px;
+  width: 350px;
+  flex-wrap: wrap;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+    0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
     }
